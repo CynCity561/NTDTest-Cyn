@@ -18,4 +18,4 @@ By Cyn Parsons 4-21-21
 1. Run OldNotInNew and NewNotInOld.ps1 with Powershell by right clicking the file. 
 2. The program will ask you for Old.sha1.txt location, New.sha1.txt location, and 
    the location where you would like to store the output text files OldNotInNew.txt and NewNotInOld.txt
-3. The program will generate a popup with the output and where the generated files were stored.
+3. The program will generate a popup with where the generated files were stored.
