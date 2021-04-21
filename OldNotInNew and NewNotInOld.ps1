@@ -92,6 +92,4 @@ Set-Content -Path $OutputPathNew -Value "NewNotInOld.txt contains:`n$($NewNotInO
 
 #Popup with output and file locations for the user to see
 $Shell = New-Object -ComObject "WScript.Shell"
-$Shell.Popup("OldNotInNew.txt contains: `n$($OldNotInNew.FileName -join "`n")`
-                        `nNewNotInOld.txt contains: `n$($NewNotInOld.Filename -join"`n")`
-                        `n The Output Files Are Located: $($OutputPath) `n`nClick OK to end.", 0, "OldNotInNew and NewNotInOld", 0)        
+$Shell.Popup("The Output Files Are Located: $($OutputPath) `n`nClick OK to end.", 0, "OldNotInNew and NewNotInOld", 0)        
