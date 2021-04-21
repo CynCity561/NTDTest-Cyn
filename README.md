@@ -3,13 +3,16 @@
 OldNotInNew and NewNotInOld Script
 By Cyn Parsons 4-21-21
 
-Installation
--Note: Script is designed for Windows OS and can be modified for Linux. 
--Check that your Powershell execution policy is set appropately in order to run scripts. 
+**Installation**
+
+-Note: Script is designed for Windows OS and can be modified for Linux.
+
+-Check that your Powershell execution policy is set appropately in order to run scripts.
+
 -For more information on Execution Policies go to: 
  https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1
 
-Windows:
+**Windows:**
 
 1. Run NTDProgram-CynParsons with Powershell by right clicking the file. 
 2. The program will ask you for Old.sha1.txt location, New.sha1.txt location, and 
